@@ -1,0 +1,76 @@
+[
+  {
+    "Id": "baidu",
+    "Maker": "@baidu",
+    "img": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png",
+    "Url": "https://www.baidu.com",
+    "Title": "Baidu",
+    "Description": "This project is a good learning project to get comfortable with soldering and programming an Arduino.",
+    "Ratings": [
+      5
+    ]
+  },
+  {
+    "Id": "Tencent",
+    "Maker": "@Tencent",
+    "img": "https://www.tencent.com/img/index/tencent_logo.png",
+    "Url": "https://www.tencent.com",
+    "Title": "Tencent",
+    "Description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
+    "Ratings": null
+  },
+  {
+    "Id": "Google",
+    "Maker": "@Google",
+    "img": "https://pic1.zhimg.com/v2-4526f99c55270a265c3ad788f9f7cb30_b.jpg",
+    "Url": "https://www.google.com",
+    "Title": "Google",
+    "Description": "Google",
+    "Ratings": null
+  },
+  {
+    "Id": "Citrix",
+    "Maker": "@Citrix",
+    "img": "https://www.indevis.de/sites/default/files/styles/partner_logo/public/2020-09/citrix-logo-black.png",
+    "Url": "https://www.citrix.com/",
+    "Title": "Citirx",
+    "Description": "Citirx",
+    "Ratings": [
+      4,
+      5,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "Id": "AliCloud",
+    "Maker": "@AliCloud",
+    "img": "https://logodix.com/logo/892953.png",
+    "Url": "https://www.alicloud.com/",
+    "Title": "AliCloud",
+    "Description": "AliCloud is a company that sells cloud computing service like Data Lake and Data WareHouse, it is also the lead tech supporter of 2020 Tokyo Olympic Games ",
+    "Ratings": null
+  },
+  {
+    "Id": "MSFT",
+    "Maker": "@MSFT",
+    "img": "https://logodix.com/logo/1402.jpg",
+    "Url": "https://www.microsoft.com",
+    "Title": "Microsoft",
+    "Description": "Microsoft is a company that provides Technical Support for everyone, Windows",
+    "Ratings": [
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  }
+]
