@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TkppFXRaYdm9C4VJJIfq2mXcRsIRI2yCRf67o0dfXg4TiSKsbZOGOSF5kLoQx/HqoDNCh5xBMA95uPDyW5oqtw==",
+  "dgSpecHash": "lNNU+IoBa3uS9Y4uyiPCojT+G/FMQpfwUoNvM3uQKfpMgNHeLxHZokSR4MxHR15zJxK5yeiSWg54kPxv3AqFfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayuan0105\\Desktop\\quickstart\\Yuan.IdentityServer4.Demo\\DiffAuthMode\\AuthorizationCode\\Yuan.MVC.Demo\\Yuan.MVC.Demo.csproj",
+  "projectFilePath": "C:\\Users\\ayuan0105\\Desktop\\quickstart\\Yuan.IdentityServer4.Demo\\DiffAuthMode\\yuan-demo-remix\\Yuan.MVC.Demo\\Yuan.MVC.Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayuan0105\\.nuget\\packages\\awssdk.core\\3.7.2.1\\awssdk.core.3.7.2.1.nupkg.sha512",
     "C:\\Users\\ayuan0105\\.nuget\\packages\\awssdk.s3\\3.7.1.21\\awssdk.s3.3.7.1.21.nupkg.sha512",

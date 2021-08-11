@@ -50,7 +50,9 @@
     "Url": "https://www.alicloud.com/",
     "Title": "AliCloud",
     "Description": "AliCloud is a company that sells cloud computing service like Data Lake and Data WareHouse, it is also the lead tech supporter of 2020 Tokyo Olympic Games ",
-    "Ratings": null
+    "Ratings": [
+      5
+    ]
   },
   {
     "Id": "MSFT",

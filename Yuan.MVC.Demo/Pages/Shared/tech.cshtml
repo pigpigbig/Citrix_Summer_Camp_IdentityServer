@@ -1,0 +1,8 @@
+﻿@page
+@using Yuan.MVC.Demo.Components
+@using Microsoft.AspNetCore.Authentication
+@model Yuan.MVC.Demo.Pages.IndexModel
+
+@(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>

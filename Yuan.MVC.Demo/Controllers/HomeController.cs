@@ -32,8 +32,32 @@ namespace Yuan.MVC.Demo.Controllers
             return View();
         }
 
+        //触发身份认证
+        [Authorize]
+        public IActionResult Login()
+        {
+            ViewData["Message"] = "Secure page.";
+            return View();
+        }
+
+        //触发身份认证
+        [Authorize]
+        public IActionResult tech()
+        {
+            ViewData["Message"] = "Secure page.";
+            return View();
+        }
+
+
         [Authorize]
         public IActionResult Privacy()
+        {
+            ViewData["Message"] = "Secure page.";
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Products()
         {
             ViewData["Message"] = "Secure page.";
             return View();

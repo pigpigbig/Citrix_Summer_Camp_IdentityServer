@@ -78,6 +78,7 @@ namespace Yuan.MVC.Demo
             app.UseRouting();
 
             app.UseCookiePolicy();
+            //确认服务对每个请求进行验证
             app.UseAuthentication();
             app.UseAuthorization();
 

@@ -47,12 +47,14 @@ namespace Yuan.IdentityServer4
                     ClientId = "code_client",
                     ClientName = "code Auth",
 
+                    //授权码模式进行授权
                     AllowedGrantTypes = GrantTypes.Code,
 
-                    RedirectUris ={
-                    "http://localhost:5002/signin-oidc", //跳转登录到的客户端的地址
+                    RedirectUris ={"http://localhost:5002/signin-oidc", //跳转登录到的客户端的地址
                     },
                     // RedirectUris = {"http://localhost:5002/auth.html" }, //跳转登出到的客户端的地址
+
+                    //登出后回到哪里
                     PostLogoutRedirectUris ={
                         "http://localhost:5002/signout-callback-oidc",
                     },

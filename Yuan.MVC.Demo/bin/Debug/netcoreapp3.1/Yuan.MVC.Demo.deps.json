@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Yuan.MVC.Demo/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.1.21",
           "IdentityServer4": "4.1.1",
           "IdentityServer4.AccessTokenValidation": "3.0.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -321,6 +322,31 @@
         },
         "compile": {
           "Yuan.MVC.Demo.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.2.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.1"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.7.1.21": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.2.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.1.21"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
         }
       },
       "IdentityModel/4.4.0": {
@@ -2232,6 +2258,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W0dxLGNhSaAKzXUk2/PCG901SbF1LAN8OkWAicm8dpmKv4HQXO6/GHF/7ZqgPSsWdVwmVmWai8mKk/wSXhVBrg==",
+      "path": "awssdk.core/3.7.2.1",
+      "hashPath": "awssdk.core.3.7.2.1.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.1.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ewWQEHo1EHDradTpbMu+8cGNjotLawuac7p9vLEWbLRxmObSu7C6sCCU+U0iFKdv9hCi/8jw4TUH7cOjbXEPlA==",
+      "path": "awssdk.s3/3.7.1.21",
+      "hashPath": "awssdk.s3.3.7.1.21.nupkg.sha512"
     },
     "IdentityModel/4.4.0": {
       "type": "package",
