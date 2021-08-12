@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Yuan.APi.Demo/1.0.0": {
         "dependencies": {
+          "Amazon.Extensions.CognitoAuthentication": "2.2.2",
           "IdentityServer4.AccessTokenValidation": "3.0.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -320,6 +321,75 @@
         },
         "compile": {
           "Yuan.APi.Demo.dll": {}
+        }
+      },
+      "Amazon.Extensions.CognitoAuthentication/2.2.2": {
+        "dependencies": {
+          "AWSSDK.CognitoIdentity": "3.7.0.2",
+          "AWSSDK.CognitoIdentityProvider": "3.7.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Extensions.CognitoAuthentication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Extensions.CognitoAuthentication.dll": {}
+        }
+      },
+      "AWSSDK.CognitoIdentity/3.7.0.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.3",
+          "AWSSDK.SecurityToken": "3.7.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentity.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.2"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentity.dll": {}
+        }
+      },
+      "AWSSDK.CognitoIdentityProvider/3.7.0.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.2"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.3"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.SecurityToken/3.7.0.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecurityToken.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.2"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SecurityToken.dll": {}
         }
       },
       "IdentityModel/4.0.0": {
@@ -2181,6 +2251,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Amazon.Extensions.CognitoAuthentication/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BL/xtFyZfQsdT6IV8XuxFsiXNcUmu0TJU+eZo2pJOOYu/1zIoiQh1jEPmd+RwKw4ZjnDF0OLU8RHOj77NnFn/Q==",
+      "path": "amazon.extensions.cognitoauthentication/2.2.2",
+      "hashPath": "amazon.extensions.cognitoauthentication.2.2.2.nupkg.sha512"
+    },
+    "AWSSDK.CognitoIdentity/3.7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fqWI5WQ+73qlnIK5KZ3peKMweX7nE8aj4uMX3t9OLAvjUP9HFDcb6N4EVn2ZXzqi35eR/LuqdwqxCHrFrUMjeA==",
+      "path": "awssdk.cognitoidentity/3.7.0.2",
+      "hashPath": "awssdk.cognitoidentity.3.7.0.2.nupkg.sha512"
+    },
+    "AWSSDK.CognitoIdentityProvider/3.7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zM6E7aLVO1FRBn51C0ctxO0hL902vjEziVrjV5yTFbOSeFQRfdIkrVOxL859GBxwuIlR57uHObMPp8Cq+60p5A==",
+      "path": "awssdk.cognitoidentityprovider/3.7.0.2",
+      "hashPath": "awssdk.cognitoidentityprovider.3.7.0.2.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aZRCJOTIylcYA5ToJMfXSNfkETEHUnzAFoHGVrFXX5NZtqHwUFnBIo8xySV+43ZeUvc7w5PB0+mLYtdLIQK62g==",
+      "path": "awssdk.core/3.7.0.3",
+      "hashPath": "awssdk.core.3.7.0.3.nupkg.sha512"
+    },
+    "AWSSDK.SecurityToken/3.7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFZjQ+AM4tDP/gVpqHm2MOY2Ibr/3PfWTACc7nZEm1AjrBg514/n70+Ooo9mqzBVFwOv11+QbHvKxbR/+jHv8A==",
+      "path": "awssdk.securitytoken/3.7.0.2",
+      "hashPath": "awssdk.securitytoken.3.7.0.2.nupkg.sha512"
     },
     "IdentityModel/4.0.0": {
       "type": "package",

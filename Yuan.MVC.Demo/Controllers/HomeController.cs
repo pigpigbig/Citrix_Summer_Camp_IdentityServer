@@ -14,6 +14,14 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Yuan.MVC.Demo.Models;
+using Amazon;
+using Amazon.Runtime;
+using Amazon.S3;
+using Amazon.S3.Model;
+using Microsoft.AspNetCore.Http;
+using System.IO;
+using System.Threading;
+using System.Text;
 
 namespace Yuan.MVC.Demo.Controllers
 {
@@ -37,9 +45,11 @@ namespace Yuan.MVC.Demo.Controllers
         public IActionResult Login()
         {
             ViewData["Message"] = "Secure page.";
+            //System.Console.WriteLine("hello");
             return View();
         }
 
+        
         //触发身份认证
         [Authorize]
         public IActionResult tech()
@@ -106,4 +116,5 @@ namespace Yuan.MVC.Demo.Controllers
             return View("json");
         }
     }
+
 }

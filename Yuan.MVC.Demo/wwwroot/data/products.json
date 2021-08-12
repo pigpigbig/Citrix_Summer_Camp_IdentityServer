@@ -7,6 +7,8 @@
     "Title": "Baidu",
     "Description": "This project is a good learning project to get comfortable with soldering and programming an Arduino.",
     "Ratings": [
+      5,
+      2,
       5
     ]
   },
@@ -51,7 +53,10 @@
     "Title": "AliCloud",
     "Description": "AliCloud is a company that sells cloud computing service like Data Lake and Data WareHouse, it is also the lead tech supporter of 2020 Tokyo Olympic Games ",
     "Ratings": [
-      5
+      5,
+      5,
+      4,
+      3
     ]
   },
   {

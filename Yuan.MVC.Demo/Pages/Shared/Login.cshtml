@@ -6,16 +6,7 @@
     <h1 class="display-4">Now that you are logging in, get your userInformation</h1>
 </div>
 <h2>Claims</h2>
-<dl>
-    @if(User.Claims != null)
-    {
-    <dt>good</dt>
-    }
-    else{
-    <dt>bad</dt>
-    }
 
-</dl>
 <dl>
     @foreach (var claim in User.Claims)
     {

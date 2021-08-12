@@ -62,3 +62,8 @@ C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yua
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\obj\Debug\netcoreapp3.1\Yuan.APi.Demo.dll
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\obj\Debug\netcoreapp3.1\Yuan.APi.Demo.pdb
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\obj\Debug\netcoreapp3.1\Yuan.APi.Demo.genruntimeconfig.cache
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\bin\Debug\netcoreapp3.1\Amazon.Extensions.CognitoAuthentication.dll
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\bin\Debug\netcoreapp3.1\AWSSDK.CognitoIdentity.dll
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\bin\Debug\netcoreapp3.1\AWSSDK.CognitoIdentityProvider.dll
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.APi.Demo\bin\Debug\netcoreapp3.1\AWSSDK.SecurityToken.dll

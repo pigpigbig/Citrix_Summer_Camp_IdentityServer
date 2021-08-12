@@ -20,17 +20,21 @@ namespace Yuan.IdentityServer4
             services.AddControllersWithViews();
 
             var builder = services.AddIdentityServer()
-               .AddTestUsers(TestUsers.Users);
+               .AddTestUsers(TestUsers.Users);// add some identity in your database,in this case we hard coded it
+                                                // and it use ef to data work in practice
 
             // in-memory, code config
             builder.AddInMemoryIdentityResources(Config.IdentityResources);
             
-            builder.AddInMemoryApiScopes(Config.ApiScopes);
-            builder.AddInMemoryApiResources(Config.ApiResources);
-            builder.AddInMemoryClients(Config.Clients);
+            builder.AddInMemoryApiScopes(Config.ApiScopes); // the combination of resources for users
+            builder.AddInMemoryApiResources(Config.ApiResources); // what resources can we get?
+            builder.AddInMemoryClients(Config.Clients); // what clients are we allowed to connected to
 
-            // not recommended for production - you need to store your key material somewhere secure
+            // not recommended for production - you need to store your key material somewhere secure(database)
+            // it tells the Identityserver about where the certificates store
             builder.AddDeveloperSigningCredential();
+
+            // using entityframework you can store the client and resource information with more security
 
             services.ConfigureNonBreakingSameSiteCookies();
         }

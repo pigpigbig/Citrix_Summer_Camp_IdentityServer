@@ -22,7 +22,8 @@ namespace Yuan.IdentityServer4
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-                new ApiScope("code_scope1")
+                new ApiScope("code_scope1"),
+                new ApiScope("aws")
             };
 
         public static IEnumerable<ApiResource> ApiResources =>
@@ -34,7 +35,14 @@ namespace Yuan.IdentityServer4
                     Scopes={ "code_scope1" },
                     UserClaims={JwtClaimTypes.Role},  //添加Cliam 角色类型
                     ApiSecrets={new Secret("apipwd".Sha256())}
+                },
+                new ApiResource("api2","api2")
+                {
+                    Scopes={ "code_scope1","aws" },
+                    UserClaims={JwtClaimTypes.Role},  //添加Cliam 角色类型
+                    ApiSecrets={new Secret("awsresource".Sha256())}
                 }
+
             };
 
         public static IEnumerable<Client> Clients =>
@@ -63,7 +71,8 @@ namespace Yuan.IdentityServer4
                     AllowedScopes = {
                            IdentityServerConstants.StandardScopes.OpenId,
                             IdentityServerConstants.StandardScopes.Profile,
-                         "code_scope1"
+                         "code_scope1",
+                         "aws"
                      },
                       //允许将token通过浏览器传递
                      AllowAccessTokensViaBrowser=true,

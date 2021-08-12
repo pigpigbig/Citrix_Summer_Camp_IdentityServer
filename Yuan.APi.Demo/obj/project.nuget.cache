@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "P4YAP1057xyayQsLtZ9Rlqh9KQ80/7eba8KomCk+fYJMkl/8UAtt1Eq6XWVovxYp/9GW5Qz9M1e/sB0N9qgvDw==",
+  "dgSpecHash": "BAWRhfZt/yVZb+/MBu57lcV0SzPCLqPIym0KOETXMkZCwNHg2u1JXLJWJUHF/uoNrnPUtMY+t7Xh6AToJcbq6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ayuan0105\\Desktop\\quickstart\\Yuan.IdentityServer4.Demo\\DiffAuthMode\\yuan-demo-remix\\Yuan.APi.Demo\\Yuan.APi.Demo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ayuan0105\\.nuget\\packages\\amazon.extensions.cognitoauthentication\\2.2.2\\amazon.extensions.cognitoauthentication.2.2.2.nupkg.sha512",
+    "C:\\Users\\ayuan0105\\.nuget\\packages\\awssdk.cognitoidentity\\3.7.0.2\\awssdk.cognitoidentity.3.7.0.2.nupkg.sha512",
+    "C:\\Users\\ayuan0105\\.nuget\\packages\\awssdk.cognitoidentityprovider\\3.7.0.2\\awssdk.cognitoidentityprovider.3.7.0.2.nupkg.sha512",
+    "C:\\Users\\ayuan0105\\.nuget\\packages\\awssdk.core\\3.7.0.3\\awssdk.core.3.7.0.3.nupkg.sha512",
+    "C:\\Users\\ayuan0105\\.nuget\\packages\\awssdk.securitytoken\\3.7.0.2\\awssdk.securitytoken.3.7.0.2.nupkg.sha512",
     "C:\\Users\\ayuan0105\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",
     "C:\\Users\\ayuan0105\\.nuget\\packages\\identitymodel.aspnetcore.oauth2introspection\\4.0.1\\identitymodel.aspnetcore.oauth2introspection.4.0.1.nupkg.sha512",
     "C:\\Users\\ayuan0105\\.nuget\\packages\\identityserver4.accesstokenvalidation\\3.0.1\\identityserver4.accesstokenvalidation.3.0.1.nupkg.sha512",

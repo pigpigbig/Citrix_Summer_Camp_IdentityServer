@@ -114,4 +114,7 @@ C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yua
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Index.cshtml.g.cs
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Login.cshtml.g.cs
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Error.cshtml.g.cs
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductList.razor.g.cs
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\obj\Debug\netcoreapp3.1\Razor\Pages\ProductList.razor.g.cs
 C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\tech.cshtml.g.cs
+C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\bin\Debug\netcoreapp3.1\AWSSDK.Extensions.NETCore.Setup.dll

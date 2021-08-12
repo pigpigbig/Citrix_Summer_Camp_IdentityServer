@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -12,6 +13,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Yuan.MVC.Demo.Extendsions;
 using Yuan.MVC.Demo.Services;
+
+
+
+
+
 namespace Yuan.MVC.Demo
 {
     public class Startup
@@ -33,7 +39,8 @@ namespace Yuan.MVC.Demo
 
             services.AddControllersWithViews();
 
-            //
+            //services.AddOidcStateDataFormatterCache();
+
             #region MVC client
             //关闭了 JWT 身份信息类型映射
             //这样就允许 well-known 身份信息（比如，“sub” 和 “idp”）无干扰地流过。
@@ -80,6 +87,7 @@ namespace Yuan.MVC.Demo
             app.UseCookiePolicy();
             //确认服务对每个请求进行验证
             app.UseAuthentication();
+            //app.UseOpenIdConnectAuthentication(new )
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

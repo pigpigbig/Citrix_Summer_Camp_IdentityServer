@@ -1,8 +1,9 @@
-﻿@page
-@using Yuan.MVC.Demo.Components
+﻿@page "/" 
+
 @using Microsoft.AspNetCore.Authentication
 @model Yuan.MVC.Demo.Pages.IndexModel
 
-@(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered))
+    <h2>Please rating your interested companies</h2>
+    @(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered))
 
-<script src="_framework/blazor.server.js"></script>
+    <script src="_framework/blazor.server.js"></script>

@@ -33,6 +33,7 @@ namespace Yuan.MVC.Demo.Services
                     });
             }
         }
+        
 
         public void AddRating(string productId, int rating)
         {
