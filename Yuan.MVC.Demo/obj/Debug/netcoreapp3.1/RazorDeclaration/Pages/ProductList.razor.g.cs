@@ -13,21 +13,21 @@ namespace Yuan.MVC.Demo.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
+#line 1 "D:\practice\practice\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
 using Yuan.MVC.Demo.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
+#line 2 "D:\practice\practice\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
 using Yuan.MVC.Demo.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
+#line 3 "D:\practice\practice\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
@@ -41,7 +41,7 @@ using Microsoft.AspNetCore.Components.Web;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 74 "C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
+#line 74 "D:\practice\practice\yuan-demo-remix\Yuan.MVC.Demo\Pages\ProductList.razor"
  
     Product selectedProduct;
     string selectedProductId;
